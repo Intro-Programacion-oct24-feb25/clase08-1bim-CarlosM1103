@@ -48,7 +48,7 @@ public class Ejemplo02 {
                     bandera = false;
                     break;
             }            
-
+            
         } while (bandera); // (bandera==true)
 
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
