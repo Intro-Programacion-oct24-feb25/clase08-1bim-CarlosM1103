@@ -8,6 +8,7 @@
  */
 
 package ejemplos02;
+import java.util.Locale;
 import java.util.Scanner;
 /**
  *
@@ -17,6 +18,7 @@ public class Ejemplo05 {
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
+        leer.useLocale(Locale.US);
         // 2. numero, i[0, n]
         System.out.println("Ingrese un numero");
         int numero = leer.nextInt();
